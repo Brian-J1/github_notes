@@ -1,5 +1,5 @@
 # Git and GitHub notes/cheatsheet
-## Basic Git Commands
+## 🔹 Basic Git Commands
 
 | Command | Description |
 |---------|------------|
@@ -25,3 +25,12 @@
 | `git push -u origin <branch>` | Push changes and set upstream branch |
 | `git fetch` | Fetch latest changes from the remote repository |
 | `git pull origin <branch>` | Pull latest changes from a specific branch |
+## 🔹 Undoing Changes
+
+| Command | Description |
+|---------|------------|
+| `git reset <file>` | Unstage a file |
+| `git reset --hard` | Reset working directory and discard all changes |
+| `git checkout -- <file>` | Revert changes in a file to last commit |
+| `git revert <commit>` | Undo a commit by creating a new one |
+| `git reflog` | Show history of changes (useful for recovering lost commits) |
